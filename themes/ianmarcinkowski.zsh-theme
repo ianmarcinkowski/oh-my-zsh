@@ -17,7 +17,7 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
 PROMPT='%{$fg_bold[red]%}%n%{$reset_color%}@%{$fg_bold[blue]%}%m %{$fg_bold[white]%}%~%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
 %{$fg_bold[green]%}:%# %{$reset_color%}'
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[blue]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[green]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[yellow]%} [dirty]"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[yellow]%} [untracked]"
